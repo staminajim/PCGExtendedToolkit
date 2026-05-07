@@ -45,8 +45,8 @@ public:
 	virtual bool IsPinDefaultValueEnabled(FName PinLabel) const override;
 	virtual bool IsPinDefaultValueActivated(FName PinLabel) const override;
 	virtual EPCGMetadataTypes GetPinDefaultValueType(FName PinLabel) const override;
-	virtual bool IsPinDefaultValueMetadataTypeValid(FName PinLabel, EPCGMetadataTypes DataType) const override;
 #if WITH_EDITOR
+	virtual bool IsPinDefaultValueMetadataTypeValid(FName PinLabel, EPCGMetadataTypes DataType) const override;
 	virtual void SetPinDefaultValue(FName PinLabel, const FString& DefaultValue, bool bCreateIfNeeded = false) override;
 	virtual void ConvertPinDefaultValueMetadataType(FName PinLabel, EPCGMetadataTypes DataType) override;
 	virtual void SetPinDefaultValueIsActivated(FName PinLabel, bool bIsActivated, bool bDirtySettings = true) override;
