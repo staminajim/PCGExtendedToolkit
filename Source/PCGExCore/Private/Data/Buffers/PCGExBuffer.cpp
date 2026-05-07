@@ -281,7 +281,7 @@ namespace PCGExData
 
 		if (this->bIsNewOutput)
 		{
-			CreatedAttribute = Domain->template CreateGenericAttribute<T>(Identifier.Name, DefaultValue, bAllowInterpolation);
+			CreatedAttribute = Domain->template CreateAttribute<T>(Identifier.Name, DefaultValue, bAllowInterpolation);
 		}
 		else
 		{
@@ -559,7 +559,7 @@ namespace PCGExData
 
 		if (this->bIsNewOutput)
 		{
-			CreatedAttribute = Domain->template CreateGenericAttribute<T>(Identifier.Name, DefaultValue, bAllowInterpolation);
+			CreatedAttribute = Domain->template CreateAttribute<T>(Identifier.Name, DefaultValue, bAllowInterpolation);
 		}
 		else
 		{

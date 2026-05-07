@@ -17,6 +17,7 @@
 #include "Math/Geo/PCGExGeo.h"
 #include "Paths/PCGExPath.h"
 #include "Paths/PCGExPathsCommon.h"
+#include "Containers/Queue.h"
 
 #define LOCTEXT_NAMESPACE "PCGExFindContoursBounded"
 #define PCGEX_NAMESPACE FindContoursBounded

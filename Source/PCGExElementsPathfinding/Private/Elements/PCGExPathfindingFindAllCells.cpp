@@ -15,6 +15,7 @@
 #include "Math/Geo/PCGExGeo.h"
 #include "Paths/PCGExPath.h"
 #include "Paths/PCGExPathsCommon.h"
+#include "Containers/Queue.h"
 
 #define LOCTEXT_NAMESPACE "PCGExFindAllCells"
 #define PCGEX_NAMESPACE FindAllCells

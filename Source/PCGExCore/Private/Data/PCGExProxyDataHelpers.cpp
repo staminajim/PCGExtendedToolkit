@@ -144,8 +144,8 @@ namespace PCGExData
 	template PCGEXCORE_API void TryGetInOutAttr<_TYPE>( \
 		const FProxyDescriptor& InDescriptor, \
 		const TSharedPtr<FFacade>& InDataFacade, \
-		const FPCGMetadataAttribute<_TYPE>*& OutInAttribute, \
-		FPCGMetadataAttribute<_TYPE>*& OutOutAttribute); \
+		const FPCGMetadataAttributeBase*& OutInAttribute, \
+		FPCGMetadataAttributeBase*& OutOutAttribute); \
 	template PCGEXCORE_API TSharedPtr<TBuffer<_TYPE>> TryGetBuffer<_TYPE>( \
 		FPCGExContext* InContext, \
 		const FProxyDescriptor& InDescriptor, \
